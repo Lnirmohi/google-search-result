@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif
+}
+
+#upper-options {
+    background: #fafafa;
+    padding-left: 13px;
+    padding-top: 22px;
+}
+
+
+#google-logo {
+    width: 120px;
+    height: 44px;
+    padding-right: 14px;
+}
+
+#search-bar {
+    display: inline-block;
+    background: white;
+    width: 604px;
+    height: 38px;
+    padding: 5px 9px 0 16px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#search-bar input {
+    font: 16px arial,sans-serif;
+    width: 511px;
+    height: 34px;
+    border: none;
+    vertical-align: 18px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#google-apps {
+    width: 25px;
+    height: 25px;
+    vertical-align: -8px;
+    margin-right: 20px;
+    font-weight: bold;
+    opacity: .55;
+}
+
+#app-and-sign_in {
+    float: right;
+    padding-right: 30px;
+    padding-top: 6px;
+}
+
+button[value="Sign in"] {
+    background: blue;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 12px;
+    color: #FFF;
+    background: #4385f0;
+    font-weight: bold;
+}
+
+#menu-and-settings {
+    color: #777;
+    background: #fafafa;
+}
+
+#menu-and-settings ul, #menu-and-settings ul  li {
+    display: inline-block;
+    font-size: 13px;
+}
+
+#menu {
+    margin-left: 150px;
+}
+
+#menu li, #settings li {
+    padding: 22px 15px 12px;
+}
+
+#menu li:first-child {
+    border-bottom: 3px solid #1A73E8;
+    font-weight: bold;
+}
+
+#settings {
+    padding-left: 98px;
+}
+
+#mic, svg {
+    padding-bottom: 12px;
+}
+
+#mic {
+    height: 24px;
+    width: 24px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+svg {
+    fill: #4385f0;
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+}
