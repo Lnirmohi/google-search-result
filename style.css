@@ -276,18 +276,43 @@ svg {
 }
 
 .footer {
-    color: #f2f2f2;
+    background-color: #f2f2f2;
+    margin-top: 35px;
+}
+
+#sub-footer-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#sub-footer-1 p:first-child {
+    padding-right: 12px;
 }
 
 #sub-footer-1, #sub-footer-2 {
-    border: 1px solid #e4e4e4;
     line-height: 40px;
-    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+    font-size: small;
+    padding-left: 166px;
     color: rgba(0,0,0,0.54);
 }
 
 .footer p {
     display: inline-block;
+}
+
+.footer nav a {
+    color: rgba(0,0,0,0.54);
+    text-decoration: none;
+    padding-right: 27px;
+}
+
+#address {
+    border-left: 1px solid #e4e4e4;
+    padding-left: 12px;
+    line-height: 15px;
+    margin: 12px 0;
+    color: #aaa;
 }
 
 /*
